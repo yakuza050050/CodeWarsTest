@@ -9,6 +9,7 @@ public class EvenOrOdd {
     public String evenOrOdd(int num) {
 
         return (num % 2 == 0) ? "Even" : "Odd";
+
     }
 
 }
