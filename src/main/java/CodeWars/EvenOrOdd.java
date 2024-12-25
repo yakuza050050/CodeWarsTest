@@ -7,6 +7,7 @@ public class EvenOrOdd {
     for even numbers or "Odd" for odd numbers.
 */
     public String evenOrOdd(int num) {
+
         return (num % 2 == 0) ? "Even" : "Odd";
     }
 
