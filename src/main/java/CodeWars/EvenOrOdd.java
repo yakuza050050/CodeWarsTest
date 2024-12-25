@@ -6,10 +6,8 @@ public class EvenOrOdd {
     an integer as an argument and returns "Even"
     for even numbers or "Odd" for odd numbers.
 */
-    public String evenOrGold(int num) {
-        if(num == 6) {
-            return "Even";
-        } else return "Odd";
+    public String evenOrOdd(int num) {
+        return (num % 2 == 0) ? "Even" : "Odd";
     }
 
 }

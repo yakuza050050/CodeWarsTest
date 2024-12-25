@@ -7,6 +7,6 @@ public class EvenOrOddTest {
     @Test
    public void testEvenOrOdd(){
         EvenOrOdd evenOrOdd = new EvenOrOdd();
-        Assert.assertEquals(evenOrOdd.evenOrGold(6), "Even");
+        Assert.assertEquals(evenOrOdd.evenOrOdd(6), "Even");
     }
 }
